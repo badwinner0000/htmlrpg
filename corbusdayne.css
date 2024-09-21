@@ -1,0 +1,131 @@
+@import url('https://fonts.cdnfonts.com/css/alexander-2');
+@import url('https://fonts.cdnfonts.com/css/Augusta');
+@import url('https://fonts.cdnfonts.com/css/analogist');
+@import url('https://fonts.cdnfonts.com/css/gensco');
+@import url('https://fonts.cdnfonts.com/css/neue-reman-sans');
+@import url('https://fonts.cdnfonts.com/css/arsenica-trial');
+
+.tb-babooshka {
+  width: 670px;
+  min-height: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  border-radius: 15px;
+  background-color: var(--bsk-bk);
+}
+
+.tbsk-m {
+  width: 100%;
+  height: 40px;
+  margin: 0 auto 0 auto;
+  border-radius: 1px 15px 0 0;
+  background-image: linear-gradient(to left, var(--bsk-cp), var(--bsk-sc));
+  display: flex;
+}
+
+.tbsk-m2 {
+  font-family: 'GENSCO', sans-serif;
+  color: var(--bsk-bk);
+  text-transform: uppercase;
+  margin: auto auto auto 15px;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.tbsk-t {
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto auto auto;
+}
+
+.tbsk-t1 {
+  font-family: 'Alexander', sans-serif;
+  text-align: center;
+  color: var(--bsk-tx);
+  font-size: 12px;
+  text-transform: lowercase;
+  margin-bottom: 0px;
+  
+}
+
+.tbsk-t2 {
+  background-image: linear-gradient(to top, var(--bsk-cp), var(--bsk-sc));
+  width: 1px;
+  height: 50px;
+  margin: auto;
+}
+
+.tbsk-t3 {
+    font-family: 'Augusta', sans-serif;
+    text-align: center;
+    color: transparent; /* Deixe o texto transparente para aplicar o fundo */
+    font-size: 65px;
+    margin-top: 20px;
+    background: -webkit-linear-gradient(110deg, var(--bsk-cp), var(--bsk-sc)); /* Gradiente aplicado */
+    -webkit-background-clip: text; /* Faz com que o fundo seja aplicado ao texto */
+    background-clip: text; /* Para navegadores não WebKit */
+     /* Adicione se quiser transformar o texto para maiúsculas */
+    margin-bottom: 0;
+    line-height: 0.9em;
+    padding: 10px 0;
+  }
+
+.tbsk-t4 {
+  text-align: center;
+  color: var(--bsk-tx);
+  font-family: 'Analogist', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 5px;
+  margin-top: -10px;
+}
+
+.tbsk-p {
+  font-family: 'Georgia', sans-serif;
+  color: var(--bsk-tx);
+  text-align: justify;
+  line-height: 1em;
+  font-size: 13px;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.tbsk-f {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, var(--bsk-cp), var(--bsk-sc));
+  margin: 0px auto auto auto;
+  display: flex;
+}
+
+.tbsk-fi {
+  margin: auto;
+  width: 85px;
+  height: 85px;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid var(--bsk-bk);
+  border-radius: 50%;
+}
+
+.tbsk-b {
+  color: var(--bsk-tx);
+  text-align: center;
+  margin: 10px auto 100px;
+  font-family: 'Arsenica Trial', sans-serif;
+  text-transform: lowercase;
+  font-style: italic;
+  font-size: 11px;
+}
+
+.tbsk-b span {
+  background: -webkit-linear-gradient(var(--bsk-cp), var(--bsk-sc));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 13px;
+}
+
+.gnomo{text-transform: uppercase; text-decoration: none; font-size: 8px; text-align: center; color: #E86B82; font-family: verdana; margin-top: 5px; letter-spacing: 2px;}
